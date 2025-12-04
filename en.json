@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Farhan Nosrati",
+    "subtitle": "Senior Frontend Engineer",
+    "description": "React • Next.js • TypeScript",
+    "github": "View GitHub"
+  },
+  "about": {
+    "title": "Professional Summary",
+    "text": "Senior Frontend Engineer with strong expertise in React, Next.js, and modern JavaScript/TypeScript ecosystems. Experienced in designing scalable UI architecture, creating performant, reusable components, and delivering production-ready features in fast-paced, remote-first teams. Skilled in translating product requirements into optimized user experiences and collaborating effectively across engineering, design, and product teams."
+  },
+  "skills": {
+    "title": "Core Technical Skills",
+    "languages": "Languages",
+    "frontend": "Frontend",
+    "styling": "UI / Styling",
+    "architecture": "Architecture",
+    "data": "Data / APIs",
+    "tooling": "Tooling",
+    "other": "Other"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "senior": {
+      "role": "Senior Frontend Engineer — Remote",
+      "company": "Freelance / Project-Based",
+      "date": "Mar 2024 – Present",
+      "points": [
+        "Led development of Next.js & React applications with scalable, modular architecture.",
+        "Built reusable UI components and improved performance.",
+        "Implemented advanced state management using Redux Toolkit / Context.",
+        "Integrated REST APIs and optimized data fetching with React Query."
+      ]
+    },
+    "developer": {
+        "role": "Frontend Developer — Remote",
+        "company": "Personal & Production Projects",
+        "points": [
+            "Migrated UI components to modern React patterns.",
+            "Designed responsive layouts with Tailwind CSS.",
+            "Built dynamic, data-driven pages with backend APIs."
+        ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "email": "Email Me",
+    "github": "My GitHub"
+  },
+  "footer": {
+    "text": "© 2024 Farhan Nosrati. All Rights Reserved."
+  }
+}

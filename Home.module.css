@@ -1,0 +1,135 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  background-color: var(--header-bg);
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks a {
+  margin: 0 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.switch {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+.hero a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.hero a:hover {
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s;
+}
+
+.experienceItem h3 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+.experienceItem span {
+    display: block;
+    font-style: italic;
+    opacity: 0.7;
+    margin: 0.2rem 0 1rem;
+}
+.experienceItem ul {
+  list-style-position: inside;
+}
+
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aboutImage {
+  flex-shrink: 0; 
+}
+
+.aboutText {
+  flex-grow: 1; 
+}
+
+
+@media (max-width: 768px) {
+  
+
+  .aboutContent {
+    flex-direction: column; 
+    text-align: center;
+  }
+}
+
